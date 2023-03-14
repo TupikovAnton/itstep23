@@ -11,6 +11,10 @@ body {
 
 }
 
+.menu li {
+    list-style-type: none;
+}
+
 h3 {
     color: black;
     font-size: 18px;
