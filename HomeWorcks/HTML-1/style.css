@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family:fantasy;
+    font-size: 24px;
+    color:#6c71c4;
+    font-style: italic;
+
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.description {
+color: #707070;
+font-size: 14px;
+font-style: italic;
+line-height: 16px;
+}
+
+.detailed {
+color: #484343;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.frame {
+    border: 3px solid #6c71c4;
+}
+
+input[type]::-webkit-input-placeholder {
+    width: 150px;
+    height: 13px;
+    color: #999999;
+    font-style: italic;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 20px;
+}
+
+textarea {
+    width: 150px;
+}
+
+.list {
+    list-style-image: url("icons/marker.png");
+    font-size: 18px;
+    font-style: oblique;
+    color: #487e3a;
+}
+
+
