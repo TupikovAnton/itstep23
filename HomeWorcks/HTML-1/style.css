@@ -2,17 +2,24 @@ body {
     background-color: #f8f8f8;
 }
 
+.logo {
+
+}
+
 .menu a {
     text-decoration: none;
-    font-family:fantasy;
+    font-family: fantasy;
     font-size: 24px;
-    color:#6c71c4;
+    color: #6c71c4;
     font-style: italic;
-
 }
 
 .menu li {
     list-style-type: none;
+}
+
+.menu a:hover {
+    color: #268bd2;
 }
 
 h3 {
@@ -23,28 +30,44 @@ h3 {
 }
 
 .description {
-color: #707070;
-font-size: 14px;
-font-style: italic;
-line-height: 16px;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description:first-letter {
+    font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif;
+    font-size: 200%;
+    color: #6c71c4;
 }
 
 .detailed {
-color: #484343;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.detailed:first-letter {
+    font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif;
+    font-size: 200%;
+    color: #6c71c4;
 }
 
 .frame {
     border: 3px solid #6c71c4;
 }
 
+.frame:hover {
+    border: none;
+}
+
 input[type]::-webkit-input-placeholder {
     width: 150px;
     height: 13px;
-    color: #999999;
+    color: #b58900;
     font-style: italic;
     font-size: 14px;
 }
@@ -52,6 +75,15 @@ input[type]::-webkit-input-placeholder {
 input[type="submit"] {
     width: 80px;
     height: 20px;
+}
+
+.colortext:focus {
+    background-color: bisque;
+    color: olive;
+}
+
+input[type] {
+    text-transform: capitalize;
 }
 
 textarea {
@@ -65,4 +97,24 @@ textarea {
     color: #487e3a;
 }
 
+th, td {
+    border: 3px solid #000000;
+    text-align: center;
+}
+
+th {
+    background-color: #6c71c4;
+}
+
+td {
+    background-color: #268bd2;
+}
+
+.upString {
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+}
 
