@@ -57,11 +57,11 @@ h3 {
 }
 
 .frame {
-    border: 3px solid #6c71c4;
+    outline: 3px solid #6c71c4;
 }
 
 .frame:hover {
-    border: none;
+    outline: none;
 }
 
 input[type]::-webkit-input-placeholder {
