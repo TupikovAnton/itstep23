@@ -2,9 +2,6 @@ body {
     background-color: #f8f8f8;
 }
 
-.logo {
-
-}
 
 .menu a {
     text-decoration: none;
@@ -20,6 +17,19 @@ body {
 
 .menu a:hover {
     color: #268bd2;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
 h3 {
@@ -64,6 +74,12 @@ h3 {
     outline: none;
 }
 
+form {
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
 input[type]::-webkit-input-placeholder {
     width: 150px;
     height: 13px;
@@ -84,12 +100,21 @@ input[type="submit"] {
 
 input[type] {
     text-transform: capitalize;
+    display: block;
+    margin: 5px 0 5px 0;
 }
+
 
 textarea {
-    width: 150px;
+    width: 170px;
+    display: block;
+    margin: 5px 0 5px 0;
 }
 
+.tel, .address, .mail {
+    font-weight: bold;
+    font-size: 20px;
+}
 .list {
     list-style-image: url("icons/marker.png");
     font-size: 18px;
