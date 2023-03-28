@@ -2,6 +2,23 @@ body {
     background-color: #f8f8f8;
 }
 
+.header {
+    display: flex;
+    height: 200px;
+    margin-left: 10px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
 
 .menu a {
     text-decoration: none;
@@ -13,10 +30,16 @@ body {
 
 .menu li {
     list-style-type: none;
+    margin: 5px;
 }
 
 .menu a:hover {
     color: #268bd2;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
 a {
